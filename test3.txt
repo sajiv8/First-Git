@@ -9,3 +9,7 @@ Ohh shit it doesnt work...now i realised that every time when you change some th
 into github......youy should add the commit message also
 
 wait ill check again
+
+\\\
+yessss it worked now....
+Finally im bit learning how can i work with git....not so much but i learned something new...and its exciting to meee
