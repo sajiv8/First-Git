@@ -18,3 +18,5 @@ Finally im bit learning how can i work with git....not so much but i learned som
 Now i gonna try something new ...im trying to delete a file and gonna find how to delete and make the chsnges in the github
 Now im trying and find the way and i give an update here 
 /////////
+Yes...i found the keyword to delete a file ...and the KEYWORD IS "RM {FILE NAME }".....then commit the hanges and add the 
+commit message ...then push to the main branch as usuall when you pusb after making a change
