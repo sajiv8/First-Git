@@ -20,3 +20,12 @@ Now im trying and find the way and i give an update here
 /////////
 Yes...i found the keyword to delete a file ...and the KEYWORD IS "RM {FILE NAME }".....then commit the hanges and add the 
 commit message ...then push to the main branch as usuall when you pusb after making a change
+
+
+////
+ANOTHER TASK
+pulling the chsanges from the github..after i cerated a file inside the prepo on the github....now we want to get the changes to 
+Vs code which was made oin the gihub....and the keyword for that is 
+"PULL"
+NOW IM GOINNA TRY AND GIVE THE UPDATE here
+/////
