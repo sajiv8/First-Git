@@ -39,4 +39,5 @@ but i maked the changes here what i made there on github
 
 /////
 Ohhhh we can make the changes here also right>>>
-i just tried that...here means ..in the github and pull there '
+i just tried that...here means ..in the github and pull  from  there to vs code 
+'
