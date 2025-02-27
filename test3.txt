@@ -29,3 +29,9 @@ Vs code which was made oin the gihub....and the keyword for that is
 "PULL"
 NOW IM GOINNA TRY AND GIVE THE UPDATE here
 /////
+
+i faced a problem when i tried to pull the changes but i asked chatgpt how to resolve this issue ...but i dont know what isssue was that
+but chatgpt said to type :wq   i dont know why..but i will found that later
+
+////
+but i maked the changes here what i made there on github
