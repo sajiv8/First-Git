@@ -1,0 +1,2 @@
+Hi im trying my own to push a file from my pc to the git hub
+and i named that file as test3.txt
