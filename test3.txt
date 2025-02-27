@@ -51,3 +51,28 @@ THIS WAS I LEARNED THROUGH THE LAST SOME TASKS
 now im gonna try this and update the result below atfter the try :)
 
 ///Heyyy i faced a lot ;(
+
+When im tried to create the folder i created the folder very easily then after that i faced a lotif problems when
+i tried to post on that on my github...its been a bit challengin to me....
+
+/// but finally im learned that how can i do it....
+
+LETS GOOOO//
+1.First create he folder on the PC User files or In the vs code...create how ever you WANTED
+    >>>create a file inside that..
+
+
+    [WHEN YOU WANT TO EXIT FROM THE LAST PATH YOU CURRENTLY IN...JUST TYPE{cd ..}]...IT WILL GET YOU OUT FROM there
+   [[]] AGAIN TO REACH ANOTHER FOLDER SIMPLY  TYPE {cd {The folder name}}]]
+
+
+
+
+
+
+2. then you should createa new reposotory on the github
+3.After that you should copy the repository address and and add inside the vs code...oi willl say how to do it
+        1.type git remote add origin [ the address{ignore the brackets just add the address here}]
+        2.then you can add the changes ..commit the changes ..when  i tried  to push to the github thats a problem i faced
+           the origin name was changed then after i checked the new branch name using [git branch]...then\
+           i pushed the file as usual
