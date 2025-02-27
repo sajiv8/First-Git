@@ -41,3 +41,8 @@ but i maked the changes here what i made there on github
 Ohhhh we can make the changes here also right>>>
 i just tried that...here means ..in the github and pull  from  there to vs code 
 '
+
+when every modificaiton need the step that
+[ MODIFY >> ADDD >> COMMMIT >> PUSH]
+
+THIS WAS I LEARNED THROUGH THE LAST SOME TASKS
