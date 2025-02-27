@@ -1,2 +1,11 @@
 Hi im trying my own to push a file from my pc to the git hub
 and i named that file as test3.txt
+
+
+Im checking that is that any change happen in the website github when im add some changes in the file from vs code 
+after pushing the file into github ...Lemme check
+
+Ohh shit it doesnt work...now i realised that every time when you change some thing in the file you need to add and push the file again 
+into github......youy should add the commit message also
+
+wait ill check again
