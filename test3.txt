@@ -46,3 +46,6 @@ when every modificaiton need the step that
 [ MODIFY >> ADDD >> COMMMIT >> PUSH]
 
 THIS WAS I LEARNED THROUGH THE LAST SOME TASKS
+
+\//// NOW I GOT A NEW TASK THAT I WANTED TO CREATE A NEW FOLDER INSIDE THE VS CODE AND  NEED TO UPDATE ON THE GIT hub
+now im gonna try this and update the result below atfter the try :)
