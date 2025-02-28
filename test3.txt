@@ -156,5 +156,6 @@ it needeed to handeled manually..after the confusion...
 
 ////
 
-
+WHEN YOU WANT TO PULL THE CHANGES FROM THE  OTHER BRANCHES YOU CAN USE THE BELOW keywords
+git pull origin {branch name}  (ignore the branch name)
 
