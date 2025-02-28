@@ -139,3 +139,7 @@ GitHub was confusing at first, but after experimenting, I feel more confident! ð
 
              ///Now im gonna try to rename this file from test3.txt to gitexp.txt
              Lets Try...
+
+             Yeppp !!!!!!!!
+             I renamed the file aswell in my own
+             Now im feeling a bit like im improved...I gonna work on git more ;)
