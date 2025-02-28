@@ -11,9 +11,7 @@ Next, I tried deleting a file and updating GitHub.
 
 🔑 Command to delete a file:
 
-sh
-Copy
-Edit
+
 git rm {file name}
 (Replace {file name} with the actual file name.)
 
@@ -24,9 +22,6 @@ I created a file directly on GitHub and wanted to pull that change into VS Code.
 
 🔑 Command to pull changes:
 
-sh
-Copy
-Edit
 git pull
 I faced an issue when pulling, and Git asked me to type :wq. I followed the instruction, but I don’t fully understand why yet. I'll figure that out later!
 
@@ -47,50 +42,33 @@ I tried creating a new folder inside VS Code and pushing it to GitHub, but it wa
 Create a folder manually or inside VS Code.
 Add a file inside that folder.
 If you're inside a different folder in the terminal, navigate back using:
-sh
-Copy
-Edit
 cd ..
 Then, go to the new folder:
-sh
-Copy
-Edit
+
 cd {folder name}
 Create a new repository on GitHub.
 Copy the repository URL and add it inside VS Code:
-sh
-Copy
-Edit
+
 git remote add origin {repo URL}
 Add, commit, and push the changes.
 When I tried pushing, I faced an issue because the branch name had changed. I fixed it by checking the branch name with:
 
-sh
-Copy
-Edit
 git branch
 Then, I pushed successfully! 🚀
 
 Creating a New Branch
 To check the current branch, use:
 
-sh
-Copy
-Edit
 git branch -a
 It will show all branches and highlight the active one.
 
 To create a new branch manually inside VS Code:
 
-sh
-Copy
-Edit
+
 git branch {new branch name}
 Then, switch to the new branch:
 
-sh
-Copy
-Edit
+
 git checkout {new branch name}
 After making changes, push using the new branch name.
 
@@ -105,20 +83,14 @@ Merging Branches
 To merge a sub-branch with the main branch:
 
 Switch to the main branch:
-sh
-Copy
-Edit
 git checkout main
+
 Merge the sub-branch:
-sh
-Copy
-Edit
 git merge {sub-branch name}
+
 Push the updated main branch to GitHub:
-sh
-Copy
-Edit
 git push origin main
+
 After doing this, I checked on GitHub, but the files were missing. I realized I forgot to push the changes! 🤦‍♂️
 Once I pushed them, they appeared correctly.
 
@@ -129,9 +101,6 @@ The main branch owner will review the changes and merge them if they are correct
 
 🔑 Key command to create a new branch inside VS Code manually:
 
-sh
-Copy
-Edit
 git branch {new branch name}
 Then, push the branch, and you’ll see it on GitHub.
 
