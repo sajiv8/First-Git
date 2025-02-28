@@ -143,4 +143,18 @@ in the github website .... until you push ..you cannot see the new created branc
 so the manually created branch was pushed succcessfully inside the github/
 
 ////PULL request
+I tried the pull request to merge my sub branch with the main branch its not anm tough taks..it was easily able to 
+merge in the github website 
+
+so creatting branches and merging them together its not a problem for me anymore i believe....
+
+///////
+When 3 members trying to merge their branches with the main branch with the changes in the same area on the file
+git hub get confused..,...i was faced that issue when working from 2 branches...
+
+it needeed to handeled manually..after the confusion...
+
+////
+
+
 
