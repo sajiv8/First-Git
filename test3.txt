@@ -134,3 +134,10 @@ the main branch owner compare and see the changes and then he will merge the sub
 So the  moral is when you dont have the accsess to merge the sub branch with the main branch youned to send the 
 pull request
 
+/////
+When you are trying to create a new branch inside the visual studio code and then you can use the line(mentioned above also)
+git branch (new name)
+
+just add the changes then commit messages and just push with the new branch created then you can see the newly created branch
+in the github website .... until you push ..you cannot see the new created branch ///
+so the manually created branch was pushed succcessfully inside the guthub
