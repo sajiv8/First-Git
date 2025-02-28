@@ -140,4 +140,7 @@ git branch (new name)
 
 just add the changes then commit messages and just push with the new branch created then you can see the newly created branch
 in the github website .... until you push ..you cannot see the new created branch ///
-so the manually created branch was pushed succcessfully inside the guthub
+so the manually created branch was pushed succcessfully inside the github/
+
+////PULL request
+
