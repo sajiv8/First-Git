@@ -1,0 +1,145 @@
+Pushing a File from PC to GitHub
+I created a file named test3.txt and wanted to check if any changes would reflect on GitHub when I modified the file from VS Code and pushed it again.
+
+Realization:
+Every time you make changes to a file, you must add, commit, and push the changes again. Also, adding a commit message is necessary.
+
+✅ Final Check: It worked! 🎉 Now, I’m getting a bit comfortable with Git. I haven’t learned much yet, but it's exciting!
+
+Deleting a File and Reflecting Changes on GitHub
+Next, I tried deleting a file and updating GitHub.
+
+🔑 Command to delete a file:
+
+
+git rm {file name}
+(Replace {file name} with the actual file name.)
+
+After that, I committed the changes and pushed them to the main branch. It worked!
+
+Pulling Changes from GitHub to VS Code
+I created a file directly on GitHub and wanted to pull that change into VS Code.
+
+🔑 Command to pull changes:
+
+git pull
+I faced an issue when pulling, and Git asked me to type :wq. I followed the instruction, but I don’t fully understand why yet. I'll figure that out later!
+
+Modifying Files Directly on GitHub and Syncing with VS Code
+I realized that I can edit files directly on GitHub and then pull the changes into VS Code. This works the same way as modifying locally and pushing to GitHub.
+
+💡 Key Git workflow steps for any modification:
+
+Modify the file
+Add the changes (git add .)
+Commit the changes (git commit -m "your message")
+Push to GitHub (git push origin main)
+Creating a New Folder and Uploading It to GitHub
+I tried creating a new folder inside VS Code and pushing it to GitHub, but it was a bit challenging at first.
+
+✅ Steps to push a new folder to GitHub:
+
+Create a folder manually or inside VS Code.
+Add a file inside that folder.
+If you're inside a different folder in the terminal, navigate back using:
+cd ..
+Then, go to the new folder:
+
+cd {folder name}
+Create a new repository on GitHub.
+Copy the repository URL and add it inside VS Code:
+
+git remote add origin {repo URL}
+Add, commit, and push the changes.
+When I tried pushing, I faced an issue because the branch name had changed. I fixed it by checking the branch name with:
+
+git branch
+Then, I pushed successfully! 🚀
+
+Creating a New Branch
+To check the current branch, use:
+
+git branch -a
+It will show all branches and highlight the active one.
+
+To create a new branch manually inside VS Code:
+
+
+git branch {new branch name}
+Then, switch to the new branch:
+
+
+git checkout {new branch name}
+After making changes, push using the new branch name.
+
+Why Create New Branches?
+Imagine five people working on a project. The main branch contains the finalized, correct files.
+Each person can work in their own branch and merge changes later.
+
+📌 Important:
+If you switch back to the main branch without merging, you won’t see the files from the sub-branch. You must merge them first.
+
+Merging Branches
+To merge a sub-branch with the main branch:
+
+Switch to the main branch:
+git checkout main
+
+Merge the sub-branch:
+git merge {sub-branch name}
+
+Push the updated main branch to GitHub:
+git push origin main
+
+After doing this, I checked on GitHub, but the files were missing. I realized I forgot to push the changes! 🤦‍♂️
+Once I pushed them, they appeared correctly.
+
+Pull Requests & Collaboration
+If you're working in a team and don’t have permission to merge a sub-branch into main, you must request a pull request on GitHub.
+
+The main branch owner will review the changes and merge them if they are correct.
+
+🔑 Key command to create a new branch inside VS Code manually:
+
+git branch {new branch name}
+Then, push the branch, and you’ll see it on GitHub.
+
+✅ Successfully created and merged a manually created branch! 🎉
+
+Pull Request & Merge Conflicts
+When multiple people edit the same part of a file, GitHub gets confused, causing merge conflicts.
+
+I faced this issue while merging from two branches. The solution?
+Manually resolve the conflicts before merging.
+
+Summary of What I Learned:
+✅ Basic Git Workflow:
+
+Modify the file
+Add changes (git add .)
+Commit (git commit -m "message")
+Push (git push origin branch-name)
+✅ Branching:
+
+Create a branch (git branch {name})
+Switch branches (git checkout {name})
+Merge branches (git merge {branch})
+✅ Syncing Changes:
+
+Pull from GitHub (git pull)
+Push changes (git push origin branch)
+✅ Handling Conflicts:
+
+Merge conflicts require manual fixes before merging
+Final Thoughts
+GitHub was confusing at first, but after experimenting, I feel more confident! 🎉 Creating repositories, branches, and merging them is no longer a problem.
+
+💡 Next goal: Learn more about resolving merge conflicts and understand :wq properly!
+             :And im gonna create a new repository and gonna work own to check that do i can work with github properly :)
+
+             ///Now im gonna try to rename this file from test3.txt to gitexp.txt
+             Lets Try...
+
+             Yeppp !!!!!!!!
+             I renamed the file aswell in my own
+             Now im feeling a bit like im improved...I gonna work on git more ;)
