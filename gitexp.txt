@@ -143,3 +143,39 @@ GitHub was confusing at first, but after experimenting, I feel more confident! �
              Yeppp !!!!!!!!
              I renamed the file aswell in my own
              Now im feeling a bit like im improved...I gonna work on git more ;)
+
+Day 2: Learning Something New in GitHub 🚀
+Today, I updated my old Python files to GitHub. I faced some issues along the way, but I figured out how to solve them. Here’s everything I did:
+
+📌 Step 1: Creating a New Repository
+I created a new repository on GitHub.
+Then, I opened VS Code and navigated to my project folder.
+
+
+📌 Step 2: Initializing Git & Uploading Files
+Inside the terminal, I ran these commands:
+
+git init               # Initialize Git in the folder
+git add .              # Stage all files
+git commit -m "Initial commit"   # Commit the files
+git remote add origin <repository-link>  # Connect to GitHub
+git branch -M main     # Rename branch to main
+git push -u origin main  # Push the files to GitHub
+After running these commands, my folder was successfully uploaded to GitHub! 🎉
+
+
+After uploading, I noticed some unwanted folders were also pushed to GitHub. So, I decided to hide them.
+
+Steps to Ignore Folders in GitHub
+1️⃣ Created a .gitignore text file inside my project folder in VS Code.
+2️⃣ Added the folder names I wanted to hide:
+        folder1/
+        folder2/   Like this..
+
+3️⃣ Ran the following commands in the terminal:
+        git rm -r --cached folder1 folder2  ####### Remove them from Git tracking
+        git commit -m "Ignored unnecessary folders"
+        git push origin main  
+
+4️⃣ After this, those unnecessary folders were successfully hidden! 🎯
+
