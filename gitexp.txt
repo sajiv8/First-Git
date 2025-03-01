@@ -179,3 +179,19 @@ Steps to Ignore Folders in GitHub
 
 4️⃣ After this, those unnecessary folders were successfully hidden! 🎯
 
+🚨 Issue:
+
+You encountered the following error while uploading a folder into a new Git repository:
+
+        error: open("GAME DEV/uml/BP0nRiCm34Lt0xu3H-SAoT04HLjqIO0E3Jeo5cCJZIb1f5mqfu-eTYFu_YS_kLV3R6MvzLsh-cvxnc-2ae15EH3OJA2_QhJiAZoymrlnDgP4c1LG0aoyahhUSXcDewXBZxZoXEOJSYpJt2OjUASA-Gh39-UY4CXeD0fF6-S2mnVffky0jYyh_gzVNLbTT5E2uHZ_-7CKOoarNGqopYoJIoJ.png")
+        : Filename too long
+
+        🛠️ Solution:
+
+        🚪 Open Git Bash as Administrator.
+        🖥️ Type the following command to allow long paths:
+
+        git config --global core.longpaths true
+
+
+        ✅ After this, the files were added without any issues!
